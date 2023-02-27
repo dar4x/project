@@ -273,3 +273,5 @@ prev.addEventListener("click", (e) => {
   currentPage--;
   getProducts();
 });
+
+console.log('some changes')
