@@ -101,7 +101,6 @@ async function editProduct(id, editedProduct) {
 
 //? это функция для отоброжение на странице
 function render(arr) {
-  
   //? чтобы наши карточки не дублировались
   list.innerHTML = "";
   arr.forEach((item) => {
@@ -273,3 +272,7 @@ prev.addEventListener("click", (e) => {
   currentPage--;
   getProducts();
 });
+
+console.log("some changes");
+
+console.log("new branch");
